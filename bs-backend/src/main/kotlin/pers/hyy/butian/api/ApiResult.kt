@@ -1,4 +1,3 @@
 package pers.hyy.butian.api
 
-class ApiResult {
-}
+data class ApiResult(var status: String, var result: Any?)

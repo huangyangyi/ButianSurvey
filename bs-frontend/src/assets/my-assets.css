@@ -1,0 +1,71 @@
+.basic_box {
+    max-width: 770px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    background: white;
+    overflow: auto;
+  }
+  
+  .my-textarea:focus{
+    border: none;
+    outline:none;
+    border-bottom-color: aqua;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+  }
+  
+  .my-textarea:hover:focus{
+    border: none;
+    outline:none;
+    border-bottom-color: aqua;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+  }
+  
+  .my-textarea:hover{
+    border: none;
+    border-bottom-color: aqua;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+  
+  .my-textarea {
+    border: 0;
+    background: none;
+    resize: none;
+    overflow:hidden;
+    width: 620px;
+    border-radius: 0;
+  }
+  .title {
+    margin: 8px 0;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    font-weight: bolder;
+  }
+  
+  
+  .description {
+    margin: 8px 0;
+    width: 100%;
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+    position: relative;
+  }
+  
+  .cover {
+    min-height: 190px;
+    border-image: url(../temp/md.jpg);
+    background-image: url(../temp/md.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: visible;
+  }
+
+  .flex-centering {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
